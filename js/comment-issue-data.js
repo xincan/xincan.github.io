@@ -1,5 +1,5 @@
 // 评论issues仓库 by.removeif https://removeif.github.io/
-var repoIssuesUrl = "https://api.github.com/repos/xincan/hexo-theme-xincan/issues";
+var repoIssuesUrl = "https://api.github.com/repos/xincan/blog-database/issues";
 // 对应仓库 clientId、clientSecret 关于这两个参数的安全问题，查看 https://removeif.github.io/2019/09/19/博客源码分享.html#1-热门推荐，最新评论：
 var clientId = "53ef521372c3dc152526";
 var clientSecret = "ac464204f70ae7097de2ea7e7721ac5c2c9fca3f";
