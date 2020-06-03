@@ -229,7 +229,7 @@ $(document).ready(setTimeout(function () { // 延迟1s执行，保证其余的�
         }
 
         // 首页热门推荐
-        // loadIndexHotData();
+         loadIndexHotData();
 
         // 装载评论数到文章对应位置
         var gitalkIdsArr = document.getElementsByClassName('display-none-class');
