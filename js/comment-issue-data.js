@@ -179,7 +179,6 @@ function loadIndexHotData() {
     if ($("#index_hot_div").length > 0) {
         var hotDiv = $("#index_hot_div");
         ajaxReqForGitHub(repoIssuesUrl + "?per_page=10&sort=comments",function (result) {
-debugger
             $.each(result, function (i, item) {
                 // 标签配色
                 if (i >= 0 & i < 4) {
@@ -243,7 +242,7 @@ $(document).ready(setTimeout(function () { // 延迟1s执行，保证其余的�
         console.clear();
         console.log("~~~~xiu xiu xiu 欢迎光临~~~");
         console.log("~~~~唉，控制台太多报错了，呜呜呜呜~~~");
-        console.log("~~~~记得有时间多来看看哦，https://removeif.github.io/")
+        console.log("~~~~记得有时间多来看看哦，https://xincan.github.io/")
     }
     ,
     500
